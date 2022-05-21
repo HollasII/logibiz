@@ -167,10 +167,33 @@ button:hover
 .key-features-list
 {
     display: inline-block;
+    text-align: center;
+    /* justify-content: space-between; */
     list-style: none;
+    width: 75%;
+    border: 2px solid red;
     /* vertical-align: middle; */
 }
 .key-feature
 {
     display: inline-block;
+    margin: 20px;
+    padding: 8px;
+    border: 2px solid black;
+}
+.key-feature div svg
+{
+    color: #3A459B;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+.key-feature .left
+{
+    /* justify-content: left; */
+}
+.key-feature .middle
+{
+    /* justify-content: center; */
 }
