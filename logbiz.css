@@ -171,15 +171,15 @@ button:hover
     /* justify-content: space-between; */
     list-style: none;
     width: 75%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* vertical-align: middle; */
 }
 .key-feature
 {
     display: inline-block;
-    margin: 20px;
+    margin: 10px 75px;
     padding: 8px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .key-feature div svg
 {
@@ -187,13 +187,19 @@ button:hover
     background-color: #fff;
     padding: 8px;
     border-radius: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
-.key-feature .left
+.key-feature p
 {
-    /* justify-content: left; */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 25px;
+}
+/* .key-feature .left
+{
+    
 }
 .key-feature .middle
 {
-    /* justify-content: center; */
-}
+    text-align: center;
+} */
