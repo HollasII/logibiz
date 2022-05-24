@@ -4,9 +4,9 @@
     background-color: #2ddf5c;
     width: 100%;
     padding: 15px 10px;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 2; */
 }
 .main-header div
 {

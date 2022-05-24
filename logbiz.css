@@ -4,18 +4,24 @@
 }
 body
 {
+    padding: 0;
     margin: 0;
 }
 .overview
-{
-    background-color: rgba(255, 41, 41, 0.7);
-    height: 480px;
-    color: #02505c;
+    {background-image: url(pexels.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
     padding: 16px;
+    color: #02505c;
+    position: relative;
 }
 .overview h1
 {
     font-weight: bolder;
+    position: absolute;
+    top: 77%;
+    color: #fff;
 }
 .plans-title
 {
@@ -99,22 +105,27 @@ button:hover
     margin: 50px 0;
     padding: 15px 10px;
 }
+#key-features h1
+{
+    padding: 20px 0;
+    color: #fff;
+}
+.key-features-list
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* vertical-align: middle; */
+}
 .key-features-title
 {
     color: #fff;
 
     /* display: inline-block;
     vertical-align: middle; */
-}
-.key-features-list
-{
-    display: inline-block;
-    text-align: center;
-    /* justify-content: space-between; */
-    list-style: none;
-    width: 75%;
-    /* border: 2px solid red; */
-    /* vertical-align: middle; */
 }
 .key-feature
 {
@@ -145,3 +156,8 @@ button:hover
 {
     text-align: center;
 } */
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+}
